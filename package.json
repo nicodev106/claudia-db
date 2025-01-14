@@ -5,6 +5,9 @@
   "main": "./dist/src/index.js",
   "module": "./dist/src/index.js",
   "types": "./index.d.ts",
+  "repository": {
+    "url": "https://github.com/nicodev106/claudia-db"
+  },
   "files": [
     "dist/**",
     "./index.d.ts"

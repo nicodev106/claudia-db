@@ -1,4 +1,4 @@
- Claudia DB
+# Claudia DB
 
 `claudia-db` es una librería de Node.js que facilita la interacción con bases de datos populares como SQLite, MySQL, MariaDB y PostgreSQL. Permite crear tablas, insertar, obtener y eliminar datos de manera sencilla, usando una API unificada.
 

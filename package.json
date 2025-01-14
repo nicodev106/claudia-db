@@ -1,6 +1,6 @@
 {
   "name": "claudia-db",
-  "version": "2.0.0",
+  "version": "2.0.0-beta.0",
   "description": "Claudia db es una biblioteca que obtiene fácilmente bases de datos tipo SQL. permite la creación, eliminación, actualización y consulta de datos mediante SQL",
   "main": "./dist/src/index.js",
   "module": "./dist/src/index.js",

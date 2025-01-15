@@ -4,14 +4,17 @@
   "description": "Claudia db es una biblioteca que obtiene fácilmente bases de datos tipo SQL. permite la creación, eliminación, actualización y consulta de datos mediante SQL",
   "main": "./dist/src/index.js",
   "module": "./dist/src/index.js",
-  "types": "index.d.ts",
+  "types": "./dist/src/index.d.ts",
   "repository": "nicodev106/claudia-db",
   "files": [
-    "dist/**",
-    "./index.d.ts"
+    "dist/**"
   ],
   "scripts": {
-    "test": "jest"
+    "build": "tsc",
+    "test": "jest",
+    "lint": "npx @biomejs/biome lint --write ./src",
+    "format": "npx @biomejs/biome format --write ./src",
+    "check": "npx @biomejs/biome check --write ./src"
   },
   "jest": {
     "preset": "ts-jest",
@@ -35,6 +38,7 @@
     "@types/pg": "^8.11.10",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5",
+    "turbo": "^2.3.3",
     "typescript": "^5.7.3"
   },
   "dependencies": {
@@ -42,5 +46,6 @@
     "mysql2": "^3.12.0",
     "pg": "^8.13.1",
     "sqlite3": "^5.1.7"
-  }
+  },
+  "packageManager": "npm@10.9.2"
 }
